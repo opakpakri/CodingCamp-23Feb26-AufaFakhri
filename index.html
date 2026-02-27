@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevoU Mini Project - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header>
+        <div class="logo-area">
+          <div class="logo-circle">OPAK</div>
+        </div>
+        <nav>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="profile.html">Our Profile</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="index.html#message-us">Message Us</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="hero-container">
+          <div class="hero-box">
+            <img
+              src="assets/building.webp"
+              alt="Hero Background"
+              class="hero-img"
+            />
+            <div class="hero-overlay"></div>
+            <div class="welcome-text">
+              <h1>Hi <span id="user-name">...</span>, Welcome To Website</h1>
+              <p>Ini adalah website latihan pertama</p>
+            </div>
+            <span class="size-label">1366 x 578</span>
+          </div>
+        </section>
+
+        <section class="hq-section">
+          <h2 class="section-title">Our Headquarter</h2>
+          <div class="hq-container">
+            <div class="hq-item">
+              <div class="circle-image">
+                <img src="assets/jakarta.webp" alt="Jakarta Office" />
+              </div>
+              <p class="location-name">Jakarta</p>
+            </div>
+
+            <div class="hq-item">
+              <div class="circle-image">
+                <img src="assets/bandung.webp" alt="Bandung Office" />
+              </div>
+              <p class="location-name">Bandung</p>
+            </div>
+
+            <div class="hq-item">
+              <div class="circle-image">
+                <img src="assets/surabaya.webp" alt="Surabaya Office" />
+              </div>
+              <p class="location-name">Surabaya</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="our-profile" class="profile-integration">
+          <div class="banner-wrapper">
+            <img
+              src="assets/building.webp"
+              alt="Our Office"
+              class="banner-full"
+            />
+            <div class="banner-overlay-gradient">
+              <div class="banner-content">
+                <span class="sub-title">Know More</span>
+                <h1>Our Journey & Stories</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card-section">
+            <div class="about-card">
+              <div class="accent-line"></div>
+              <h2>Tentang YellowSpace</h2>
+              <p>
+                YellowSpace adalah agensi kreatif digital yang lahir dari
+                semangat untuk memberikan solusi yang cerah dan inovatif bagi
+                setiap tantangan bisnis. Kami percaya bahwa setiap ide besar
+                dimulai dari percikan kreativitas yang sederhana namun
+                bertenaga, layaknya warna kuning yang melambangkan energi dan
+                optimisme.
+              </p>
+            </div>
+          </div>
+
+          <div class="vm-modern-section">
+            <div class="vm-grid-modern">
+              <div class="vm-card-modern">
+                <div class="vm-number">01</div>
+                <h3>Visi Kami</h3>
+                <p>
+                  Menjadi mercusuar kreativitas global yang menerangi jalan bagi
+                  brand-brand untuk mencapai puncak potensi mereka melalui
+                  teknologi dan seni.
+                </p>
+              </div>
+              <div class="vm-card-modern yellow-bg">
+                <div class="vm-number">02</div>
+                <h3>Misi Kami</h3>
+                <ul>
+                  <li>Menghadirkan desain yang fungsional dan indah.</li>
+                  <li>Mengedepankan inovasi dalam setiap proyek.</li>
+                  <li>Membangun ekosistem kerja yang ceria dan produktif.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="message-us" class="message-section">
+          <h2 class="section-title">Message Us</h2>
+
+          <div class="message-container">
+            <div class="form-side">
+              <form id="message-form">
+                <div class="form-group">
+                  <label>Nama</label>
+                  <span>:</span>
+                  <input
+                    type="text"
+                    id="input-nama"
+                    placeholder="Nama"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label>Tanggal Lahir</label>
+                  <span>:</span>
+                  <input type="date" id="input-tanggal" required />
+                </div>
+
+                <div class="form-group">
+                  <label>Jenis Kelamin</label>
+                  <span>:</span>
+                  <div class="radio-group">
+                    <input
+                      type="radio"
+                      name="gender"
+                      value="Laki-Laki"
+                      id="male"
+                    />
+                    <label for="male">Laki-Laki</label>
+                    <input
+                      type="radio"
+                      name="gender"
+                      value="Perempuan"
+                      id="female"
+                    />
+                    <label for="female">Perempuan</label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Pesan</label>
+                  <span>:</span>
+                  <textarea
+                    id="input-pesan"
+                    placeholder="Pesan"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" id="submit-btn">Submit</button>
+              </form>
+            </div>
+
+            <div class="review-side">
+              <div class="review-box">
+                <div id="review-content" class="review-content">
+                  <p>
+                    <strong>Current Time:</strong> <span id="res-time"></span>
+                  </p>
+                  <br />
+                  <p><strong>Nama:</strong> <span id="res-nama"></span></p>
+                  <p>
+                    <strong>Tanggal Lahir:</strong>
+                    <span id="res-tanggal"></span>
+                  </p>
+                  <p>
+                    <strong>Jenis Kelamin:</strong>
+                    <span id="res-gender"></span>
+                  </p>
+                  <p><strong>Pesan:</strong> <span id="res-pesan"></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Created By Opak</p>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
